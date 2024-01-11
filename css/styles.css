@@ -691,7 +691,7 @@ body {
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: var(--IRIS);
 }
 .modal-icon {
@@ -746,6 +746,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  fill: var(--IRIS);
 }
 .form-link {
   color: var(--IRIS);
@@ -765,7 +766,4 @@ body {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.checked {
-  background-color: var(--OCEAN);
 }
