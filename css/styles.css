@@ -620,11 +620,13 @@ body {
 }
 .subscribe-form {
   display: flex;
+  gap: 24px;
+  padding: 20px 0 0 0;
 }
 .subscribe-label {
-  gap: 24px;
 }
 .subscribe-input {
+  gap: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid var(--WHITE);
@@ -637,8 +639,12 @@ body {
   border-radius: 4px;
   color: var(--WHITE);
 }
-::placeholder {
+.subscribe-form .subscribe-input::placeholder {
   color: var(--WHITE);
+}
+.subscribe-form .subscribe-input:focus {
+  border: 1px solid var(--background-color);
+  outline: none;
 }
 .subscribe-button {
   min-width: 165px;
